@@ -32,3 +32,14 @@ REQUIREMENTS
 ------------
 - Python 3.6 or higher
 - pip (Python package manager)
+
+# for 1.4 run - python -W ignore activity_1.4.py
+I'm running the script with the -W ignore flag to 
+suppress deprecation warnings that come from inside
+ the face_recognition_models library. 
+ These warnings are not caused by my code —
+  they appear because the library internally uses 
+  a package called pkg_resources which is being phased 
+  out by its developers. Using -W ignore simply hides 
+  them so the actual output is easier to read. 
+  The program runs identically either way.#

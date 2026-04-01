@@ -2,24 +2,18 @@
   RAILWAY LOGISTICS ROUTE PLANNER — RESULT
 =================================================================
 
-  Required stations : London, OXFORD, Bristol Parkway, BIRMINGHAM SNOW HILL, EXETER CENTRAL
-  Start             : London
-  Destination       : OXFORD
+  Required stations : Bristol Parkway, London
+  Start             : Bristol Parkway
+  Destination       : London
 
   Optimal visiting order (required stations only):
-    London
-        ↓  (cost: 128)
-    EXETER CENTRAL
-        ↓  (cost: 78)
     Bristol Parkway
-        ↓  (cost: 59)
-    BIRMINGHAM SNOW HILL
-        ↓  (cost: 60)
-    OXFORD
+        ↓  (cost: 66)
+    London
 
-  Total cost : 325
+  Total cost : 66
 
-  Full route including all intermediate stops (29 stations):
-  London → Slough → READING → Bramley → Basingstoke → Andover → Salisbury → Sherborne → Yeovil → Axminster → Honiton → EXETER CENTRAL → EXETER ST DAVIDS → Tiverton Parkway → Taunton → Bridgwater → BRISTOL TEMPLE MEADS → Bristol Parkway → Cheltenham Spa → Longbridge → University → BIRMINGHAM NEW STREET → BIRMINGHAM SNOW HILL → Tamworth → Nuneaton → COVENTRY → Leamington Spa → Banbury → OXFORD
+  Full route including all intermediate stops (6 stations):
+  Bristol Parkway → SWINDON → Didcot Parkway → READING → Slough → London
 
 =================================================================
